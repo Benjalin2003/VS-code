@@ -1,7 +1,6 @@
-import React from "react";
+import { Input } from "../ui";
 import { Title } from "./title";
 import { FilterCheckbox } from "./filter-checkbox";
-import { Input } from "../ui";
 import { CheckboxFiltersGroup } from "./checkbox-filters-group";
 
 interface Props {
@@ -11,7 +10,7 @@ interface Props {
 export const Filters: React.FC<Props> = ({ className }) => {
     return (
         <div className={className}>
-            <Title size="sm" text="Все пиццы" className="font-bold mb-4 mt-4"></Title>
+            <Title size="sm" text="Фильтрация" className="font-bold mb-4 mt-4"></Title>
             <div className="flex flex-col gap-4">
                 <FilterCheckbox value="1" text="Можно собирать"/>
                 <FilterCheckbox value="2" text="Новинки"/>

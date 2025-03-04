@@ -3,3 +3,5 @@ export {Categories} from './categories';
 export {Header} from './header';
 export {Title} from './title';
 export {SortPopup} from './sort-popup';
+export {CheckboxFiltersGroup} from './checkbox-filters-group'
+export {Filters} from './filters'

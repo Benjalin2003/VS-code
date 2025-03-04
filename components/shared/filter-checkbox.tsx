@@ -1,5 +1,6 @@
 import React from "react";
-import { Checkbox } from "@radix-ui/react-checkbox";
+import { Checkbox } from "../ui/checkbox";
+
 
 export interface FilterCheckboxProps {
     text: string;
